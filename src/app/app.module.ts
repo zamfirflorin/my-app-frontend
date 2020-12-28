@@ -5,7 +5,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MenuComponent } from './menu/menu.component';
 import { FooterComponent } from './footer/footer.component';
-import { ContactComponent } from './contact/contact.component';
+import { AddContactComponent } from './components/add-contact/add-contact.component';
+import { ContactDetailsComponent } from './components/contact-details/contact-details.component';
+import { ContactsListComponent } from './components/contacts-list/contacts-list.component';
 
 
 @NgModule({
@@ -13,8 +15,9 @@ import { ContactComponent } from './contact/contact.component';
     AppComponent,
     MenuComponent,
     FooterComponent,
-    ContactComponent,
-
+    AddContactComponent,
+    ContactDetailsComponent,
+    ContactsListComponent
   ],
   imports: [
     BrowserModule,
