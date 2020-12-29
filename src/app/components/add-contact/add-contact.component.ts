@@ -7,6 +7,11 @@ import { Router } from '@angular/router';
 })
 export class AddContactComponent implements OnInit {
 
+  contact = {
+    firstName: '', 
+    lastName: ''
+  }
+
   constructor(private router: Router) { }
 
   ngOnInit(): void {
